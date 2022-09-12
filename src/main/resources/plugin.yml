@@ -1,0 +1,15 @@
+name: MinehutMessaging
+version: '${project.version}'
+main: com.lusionmc.privatemessage.PrivateMessage
+api-version: 1.17
+prefix: [ MHM ]
+authors: [ Dylann ]
+description: Private Messaging System To Replace Minehut's.
+website: lusionmc.com
+commands:
+  message:
+    aliases: /msg, /m
+    usage: /message <player> <message>
+  reply:
+    aliases: /r
+    usage: /reply <message>
